@@ -14,7 +14,11 @@ function App() {
   return (
     <div>
       <Header/>
-      <Container/>
+      <Container 
+      character={character} setCharacter={setCharacter}
+      info={info} setInfo={setInfo}
+      input={input} setInput={setInput}
+      />
       <Footer/>
     </div>
   );
