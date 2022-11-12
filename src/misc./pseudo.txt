@@ -1,0 +1,12 @@
+//Functionality for character creation:
+an empty initial state that will equal the values of all of the user inputs
+(^ spread operator will be necessary alongside onChange to control inputs)
+a button that will call the function on click
+
+//Functionality for Grabbing Api info:
+an empty initial state that will equal the values of the different types of grabbable relevant data
+this variable will also equal the base string used to fetch data that will be modified based on user inputs
+
+//Functionality for grabbing and reading user inputs:
+an empty initial state that will equal all relevant user inputs 
+once set to those values, those values will be parsed into the url 

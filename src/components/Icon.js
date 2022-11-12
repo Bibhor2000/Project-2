@@ -4,8 +4,7 @@ import {useParams, Link} from 'react-router-dom';
 function Icon () {
 
     return (
-        <div>
-        </div>
+        <div>This is Icon</div>
     )
 }
 

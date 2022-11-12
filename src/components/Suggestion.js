@@ -4,8 +4,7 @@ import {useParams, Link} from 'react-router-dom';
 function Suggestion () {
 
     return (
-        <div>
-        </div>
+        <div>This is Suggestion</div>
     )
 }
 

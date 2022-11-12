@@ -4,8 +4,7 @@ import {useParams, Link} from 'react-router-dom';
 function Footer () {
 
     return (
-        <div>
-        </div>
+        <div>This is Footer</div>
     )
 }
 
