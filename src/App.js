@@ -7,9 +7,9 @@ import Container from './components/Container';
 import Header from './components/Header';
 
 function App() {
-  const [character, getCharacter] = useState()
-  const [info, getInfo] = useState()
-  const [input, getInput] = useState()
+  const [character, setCharacter] = useState()
+  const [info, setInfo] = useState()
+  const [input, setInput] = useState()
 
   return (
     <div>
