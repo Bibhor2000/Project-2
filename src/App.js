@@ -6,6 +6,13 @@ import Footer from './components/Footer';
 import Container from './components/Container';
 import Header from './components/Header';
 import axios from 'axios';
+import clothingList from './data/clothinglist';
+import eyeBrowList from './data/eyebrowlist';
+import eyeList from './data/eyelist';
+import hairColorList from './data/haircolorlist';
+import hairList from './data/hairlist';
+import mouthList from './data/hairlist';
+import skinColorList from './data/haircolorlist';
 
 function App() {
   const [character, setCharacter] = useState()
@@ -21,6 +28,9 @@ function App() {
   }, []);
 
   //console.log(info)
+  // const url = 'https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]'
+  // const readUrl = url.data
+   
 
   async function getInput () {
 

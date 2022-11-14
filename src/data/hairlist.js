@@ -26,3 +26,5 @@ const hairList = [
     'long14',
     'long15'
 ]
+
+export default hairList;
