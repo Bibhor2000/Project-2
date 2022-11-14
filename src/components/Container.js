@@ -8,8 +8,7 @@ function Container ({character, setCharacter, info, setInfo, input, setInput, cl
 
     return (
         <div>
-            <div>This is Container</div>
-            <Dropdown />
+            <Dropdown clothingList={clothingList} eyeBrowList={eyeBrowList} eyeList={eyeList} hairColorList={hairColorList} hairList={hairList} mouthList={mouthList} skinColorList={skinColorList} getInfo={getInfo} getInput={getInput} getCharacter={getCharacter}/>
             <Icon />
             <Suggestion />
         </div>

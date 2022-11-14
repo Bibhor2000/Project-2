@@ -5,52 +5,55 @@ function Dropdown ({character, setCharacter, info, setInfo, input, setInput, clo
 
     let clothes = clothingList.map(c => {
         return (
-            <option>{c}</option>
+            <option value={c}>{c}</option>
         ) 
     })
 
     let eyebrows = eyeBrowList.map(eyb => {
         return (
-            <option>{eyb}</option>
+            <option value={eyb}>{eyb}</option>
         )
     })
 
     let eyes = eyeList.map(ey => {
         return (
-            <option>{ey}</option>
+            <option value={ey}>{ey}</option>
         )
     })
 
     let hairs = hairList.map(h => {
         return (
-            <option>{h}</option>
+            <option value={h}>{h}</option>
         )
     })
 
     let hairColors = hairColorList.map(hc => {
         return (
-            <option>{hc}</option>
+            <option value={hc}>{hc}</option>
         )
     })
 
     let skinColors = skinColorList.map(s => {
         return (
-            <option>{s}</option>
+            <option value={s}>{s}</option>
         )
     })
 
     let mouths = mouthList.map(m => {
         return (
-            <option>{m}</option>
+            <option value={m}>{m}</option>
         )
     })
 
     return (
         <div>
-            <div>
-            
-            </div>
-            
+            <select>{clothes}</select>
+            <select>{eyebrows}</select>
+            <select>{eyes}</select>
+            <select>{hairs}</select>
+            <select>{hairColors}</select>
+            <select>{skinColors}</select>
+            <select>{mouths}</select>
         </div>
     )
 }
