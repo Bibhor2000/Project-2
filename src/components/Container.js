@@ -4,7 +4,7 @@ import Dropdown from './Dropdown';
 import Icon from './Icon';
 import Suggestion from './Suggestion';
 
-function Container ({character, setCharacter, info, setInfo, input, setInput}) {
+function Container ({character, setCharacter, info, setInfo, input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList}) {
 
     return (
         <div>

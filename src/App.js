@@ -14,23 +14,21 @@ import hairList from './data/hairlist';
 import mouthList from './data/hairlist';
 import skinColorList from './data/haircolorlist';
 
+
 function App() {
   const [character, setCharacter] = useState()
   const [info, setInfo] = useState()
   const [input, setInput] = useState()
 
-  useEffect(() => {
-    async function getInfo () {
-      const readInfo = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=variant01&eyebrows[]=variant01&mouth[]=happy01&hair[]=short01&hairColor[]=variant01&skinColor[]=variant01&clothing[]=variant01`)
-      setInfo(readInfo.data)
-    }
-    getInfo()
-  }, []);
-
   //console.log(info)
   // const url = 'https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]'
   // const readUrl = url.data
-   
+
+  async function getInfo () {
+    const readInfo = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=variant01&eyebrows[]=variant01&mouth[]=happy01&hair[]=short01&hairColor[]=variant01&skinColor[]=variant01&clothing[]=variant01`)
+    setInfo(readInfo.data)
+  }
+  getInfo()
 
   async function getInput () {
 
@@ -47,6 +45,13 @@ function App() {
       character={character} setCharacter={setCharacter}
       info={info} setInfo={setInfo}
       input={input} setInput={setInput}
+      clothingList={clothingList}
+      eyeBrowList={eyeBrowList}
+      eyeList={eyeList}
+      hairColorList={hairColorList}
+      hairList={hairList}
+      mouthList={mouthList}
+      skinColorList={skinColorList}
       />
       <Footer/>
     </div>
