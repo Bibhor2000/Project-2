@@ -1,7 +1,8 @@
 //Functionality for character creation:
 an empty initial state that will equal the values of all of the user inputs
 (^ spread operator will be necessary alongside onChange to control inputs)
-a button that will call the function on click
+a button that will call the function on click to generate an icon accordingly once 
+it has read all values of all the inputs 
 
 //Functionality for Grabbing Api info:
 an empty initial state that will equal the values of the different types of grabbable relevant data

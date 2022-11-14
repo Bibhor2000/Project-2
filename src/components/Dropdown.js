@@ -4,7 +4,8 @@ import {useParams, Link} from 'react-router-dom';
 function Dropdown ({character, setCharacter, info, setInfo, input, setInput}) {
 
     return (
-        <div>This is Dropdown</div>
+        <div>
+        </div>
     )
 }
 
