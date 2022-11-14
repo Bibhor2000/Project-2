@@ -11,3 +11,14 @@ this variable will also equal the base string used to fetch data that will be mo
 //Functionality for grabbing and reading user inputs:
 an empty initial state that will equal all relevant user inputs 
 once set to those values, those values will be parsed into the url 
+
+//Logic for grabbing info from the url & replacing parts of it with values of inputs:
+String interpolation for the url 
+Assign variables to equal the values of different inputs
+Put in those variables in the proper positions of the url
+
+//Plan for the structure of the storage of changeable data
+Store all the possible variants of each characterisitic of the avatar 
+in seperate js files.
+Import them into the App js file 
+Map them out with array methods

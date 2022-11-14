@@ -14,13 +14,13 @@ function App() {
 
   useEffect(() => {
     async function getInfo () {
-      const readInfo = await axios.get('https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=variant01&eyebrows[]=variant01&mouth[]=happy01&hair[]=short01&hairColor[]=variant01&skinColor[]=variant01&clothing[]=variant01')
+      const readInfo = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=variant01&eyebrows[]=variant01&mouth[]=happy01&hair[]=short01&hairColor[]=variant01&skinColor[]=variant01&clothing[]=variant01`)
       setInfo(readInfo.data)
     }
     getInfo()
   }, []);
 
-  console.log(info)
+  //console.log(info)
 
   async function getInput () {
 
