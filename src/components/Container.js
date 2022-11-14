@@ -4,11 +4,11 @@ import Dropdown from './Dropdown';
 import Icon from './Icon';
 import Suggestion from './Suggestion';
 
-function Container ({character, setCharacter, info, setInfo, input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList, getInfo, getInput, getCharacter}) {
+function Container ({character, setCharacter, info, setInfo, input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList, getInput, getCharacter}) {
 
     return (
         <div>
-            <Dropdown clothingList={clothingList} eyeBrowList={eyeBrowList} eyeList={eyeList} hairColorList={hairColorList} hairList={hairList} mouthList={mouthList} skinColorList={skinColorList} getInfo={getInfo} getInput={getInput} getCharacter={getCharacter}/>
+            <Dropdown clothingList={clothingList} eyeBrowList={eyeBrowList} eyeList={eyeList} hairColorList={hairColorList} hairList={hairList} mouthList={mouthList} skinColorList={skinColorList} getInput={getInput} getCharacter={getCharacter}/>
             <Icon />
             <Suggestion />
         </div>

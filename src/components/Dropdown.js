@@ -1,7 +1,7 @@
 import React, {Component, useState, useEffect} from 'react';
 import {useParams, Link} from 'react-router-dom';
 
-function Dropdown ({character, setCharacter, info, setInfo, input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList, getInfo, getInput, getCharacter}) {
+function Dropdown ({character, setCharacter, info, setInfo, input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList, getInput, getCharacter}) {
 
     let clothes = clothingList.map(c => {
         return (
@@ -44,6 +44,8 @@ function Dropdown ({character, setCharacter, info, setInfo, input, setInput, clo
             <option value={m}>{m}</option>
         )
     })
+
+
 
     return (
         <div>
