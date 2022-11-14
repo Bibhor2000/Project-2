@@ -52,6 +52,9 @@ function App() {
       hairList={hairList}
       mouthList={mouthList}
       skinColorList={skinColorList}
+      getInfo={getInfo}
+      getInput={getInput}
+      getCharacter={getCharacter}
       />
       <Footer/>
     </div>
