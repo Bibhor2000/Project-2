@@ -46,8 +46,8 @@ function App() {
     const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}`)
     setImage(createCharacter)
   }
-  console.log(image)
-  console.log(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}`)
+  // console.log(image)
+  // console.log(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}`)
 
   return (
     <div>
@@ -63,7 +63,6 @@ function App() {
       hairList={hairList}
       mouthList={mouthList}
       skinColorList={skinColorList}
-      // getInput={getInput}
       getCharacter={getCharacter}
       image={image}
       />

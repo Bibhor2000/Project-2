@@ -22,3 +22,5 @@ Store all the possible variants of each characterisitic of the avatar
 in seperate js files.
 Import them into the App js file 
 Map them out with array methods
+
+//Logic for displaying the raw svg data into an image:
