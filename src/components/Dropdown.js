@@ -1,5 +1,5 @@
 import React, {Component, useState, useEffect} from 'react';
-import {useParams, Link} from 'react-router-dom';
+
 
 function Dropdown ({input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList}) {
 
