@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import Footer from './components/Footer';
 import Container from './components/Container';
 import Header from './components/Header';
+import QuickDocs from './components/QuickDocs';
 import axios from 'axios';
 import clothingList from './data/clothinglist';
 import eyeBrowList from './data/eyebrowlist';
