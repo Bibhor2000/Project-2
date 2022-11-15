@@ -11,15 +11,23 @@ import eyeBrowList from './data/eyebrowlist';
 import eyeList from './data/eyelist';
 import hairColorList from './data/haircolorlist';
 import hairList from './data/hairlist';
-import mouthList from './data/hairlist';
-import skinColorList from './data/haircolorlist';
+import mouthList from './data/mouthlist';
+import skinColorList from './data/skincolorlist';
 
 
 function App() {
   const [character, setCharacter] = useState()
   const [info, setInfo] = useState()
-  const [input, setInput] = useState('')
-
+  const [input, setInput] = useState({
+    // clothes: '',
+    // eyebrow: '',
+    // eye: '',
+    // hair: '',
+    // hairColor: '',
+    // mouth: '',
+    // skinColor: ''
+  })
+  const [image, setImage] = useState('')
   //console.log(info)
   // const url = 'https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]'
   // const readUrl = url.data
@@ -30,13 +38,16 @@ function App() {
   // }
   //getInfo()
 
-  async function getInput () {
+  // async function getInput () {
 
-  }
+  // }
 
   async function getCharacter () {
-    const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=variant01&eyebrows[]=variant01&mouth[]=happy01&hair[]=short01&hairColor[]=variant01&skinColor[]=variant01&clothing[]=variant01`)
+    const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}`)
+    setImage(createCharacter)
   }
+  console.log(image)
+  console.log(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}`)
 
   return (
     <div>
@@ -52,8 +63,9 @@ function App() {
       hairList={hairList}
       mouthList={mouthList}
       skinColorList={skinColorList}
-      getInput={getInput}
+      // getInput={getInput}
       getCharacter={getCharacter}
+      image={image}
       />
       <Footer/>
     </div>

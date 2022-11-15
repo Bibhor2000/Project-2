@@ -44,18 +44,33 @@ function Dropdown ({character, setCharacter, info, setInfo, input, setInput, clo
             <option value={m}>{m}</option>
         )
     })
+    console.log(mouthList)
 
+    function handleChange(e) {
+        setInput({
+            ...input,
+            [e.target.name]: e.target.value
+        })
+    }
+    //console.log(input);
 
 
     return (
         <div>
-            <select>{clothes}</select>
-            <select>{eyebrows}</select>
-            <select>{eyes}</select>
-            <select>{hairs}</select>
-            <select>{hairColors}</select>
-            <select>{skinColors}</select>
-            <select>{mouths}</select>
+            <label for='clothes'>Clothes</label>
+            <select name='clothes' onChange={handleChange}>{clothes}</select>
+            <label for='eyebrows'>Eyebrows</label>
+            <select name='eyebrows' onChange={handleChange}>{eyebrows}</select>
+            <label for='eyes'>Eyes</label>
+            <select name='eyes' onChange={handleChange}>{eyes}</select>
+            <label for='hairs'>Hairs</label>
+            <select name='hairs' onChange={handleChange}>{hairs}</select>
+            <label for='hairColors'>HairColors</label>
+            <select name='hairColors' onChange={handleChange}>{hairColors}</select>
+            <label for='skinColors'>SkinColors</label>
+            <select name='skinColors' onChange={handleChange}>{skinColors}</select>
+            <label for='mouths'>Mouths</label>
+            <select name='mouths' onChange={handleChange}>{mouths}</select>
         </div>
     )
 }
