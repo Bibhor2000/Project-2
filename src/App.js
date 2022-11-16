@@ -23,15 +23,17 @@ function App() {
   const [image, setImage] = useState('')
 
   async function getCharacter () {
-    const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}`)
+    const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}&hatProbability[]=0`)
     setImage(createCharacter)
   }
 
   return (
     <div className='App'>
       <Header/>
-      <Link to='/Container'>Container</Link>
-      <Link to='/QuickDocs'>QuickDocs</Link>
+      <div>
+        <Link to='/Container'>Create Your Character</Link>
+        <Link to='/QuickDocs'>QuickDocs</Link>
+      </div>
       <Routes>
         <Route path='/QuickDocs' element={<QuickDocs/>}/>
         <Route path='/Container' element={<Container 
