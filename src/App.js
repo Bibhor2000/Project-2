@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, {Component, useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Route, Router, Routes} from 'react-router-dom';
 import Footer from './components/Footer';
 import Container from './components/Container';
 import Header from './components/Header';
@@ -28,9 +28,13 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='App'>
       <Header/>
-      <Container 
+      <Link to='/Container'>Container</Link>
+      <Link to='/QuickDocs'>QuickDocs</Link>
+      <Routes>
+        <Route path='/QuickDocs' element={<QuickDocs/>}/>
+        <Route path='/Container' element={<Container 
       character={character} setCharacter={setCharacter}
       input={input} setInput={setInput}
       clothingList={clothingList}
@@ -42,7 +46,8 @@ function App() {
       skinColorList={skinColorList}
       getCharacter={getCharacter}
       image={image}
-      />
+      />}/>
+      </Routes>
       <Footer/>
     </div>
   );
