@@ -28,7 +28,9 @@ function QuickDocs ({character, setCharacter, info, setInfo, input, setInput, cl
                     <li>Variant08 = Cross-Eyed</li>
                     <li>Variant09 = Looking Away Narrowed</li>
                     <li>Variant10 = Looking Away Worried</li>
-                    <li></li>
+                    <li>Variant11 = Looking Down Cross-Eyed</li>
+                    <li>Variant12 = Looking Down</li>
+                    <li>Variant13 = Looking Away02</li>
                 </ul>
                 <ul>
                     <h4>Eyebrow Types</h4>
@@ -42,6 +44,9 @@ function QuickDocs ({character, setCharacter, info, setInfo, input, setInput, cl
                     <li>Variant08 = Normal03</li>
                     <li>Variant09 = Normal04</li>
                     <li>Variant10 = None02</li>
+                    <li>Variant11 = Annoyed</li>
+                    <li>Variant12 = Annoyed02</li>
+                    <li>Variant13 = Sad</li>
                 </ul>
                 <ul>
                     <h4>Hair Colors</h4>
@@ -65,14 +70,17 @@ function QuickDocs ({character, setCharacter, info, setInfo, input, setInput, cl
                     <h4>Clothes</h4>
                     <li>Variant01 = Striped T-Shirt</li>
                     <li>Variant02 = V-Neck T-Shirt</li>
-                    <li>Variant03 = Tank Top</li>
+                    <li>Variant03 = Tank-Top</li>
                     <li>Variant04 = V-Neck02</li>
                     <li>Variant05 = V-Neck03</li>
                     <li>Variant06 = Two-Tone T-Shirt</li>
-                    <li>Variant07 = Two-Tone Long Sleeves </li>
+                    <li>Variant07 = Two-Tone Long-Sleeves </li>
                     <li>Variant08 = Collared Two-Tone T-Shirt</li>
-                    <li>Variant09 = Two-Tone Long Sleeves02</li>
-                    <li>Variant10 = Tank Top02</li>
+                    <li>Variant09 = Two-Tone Long-Sleeves02</li>
+                    <li>Variant10 = Tank-Top02</li>
+                    <li>Variant11 = Tank-Top03</li>
+                    <li>Variant12 = Tank-Top04</li>
+                    <li>Variant13 = Long-Sleeves</li>
                 </ul>
             </div>
         </div>
