@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom';
 import Dropdown from './Dropdown';
 import Icon from './Icon';
 
-function Container ({character, setCharacter, input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList, clothColorList, getCharacter, image}) {
+function Container ({input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList, clothColorList, getCharacter, image}) {
 
     return (
         <div>
             <Dropdown input={input} setInput={setInput} clothingList={clothingList} eyeBrowList={eyeBrowList} eyeList={eyeList} hairColorList={hairColorList} hairList={hairList} mouthList={mouthList} skinColorList={skinColorList} clothColorList={clothColorList}/>
-            <Icon input={input} setInput={setInput} clothingList={clothingList} eyeBrowList={eyeBrowList} eyeList={eyeList} hairColorList={hairColorList} hairList={hairList} mouthList={mouthList} skinColorList={skinColorList} clothColorList={clothColorList} getCharacter={getCharacter} image={image}/>
+            <Icon getCharacter={getCharacter} image={image}/>
         </div>
     )
 }

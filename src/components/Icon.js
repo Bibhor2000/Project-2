@@ -1,7 +1,7 @@
 import React, {Component, useState, useEffect} from 'react';
 import SVG from 'react-inlinesvg';
 
-function Icon ({character, setCharacter, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList, clothColorList, getCharacter, image}) {
+function Icon ({getCharacter, image}) {
 
     const mySVG = image.data;
     return (

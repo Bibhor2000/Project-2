@@ -38,7 +38,6 @@ function App() {
       <Routes>
         <Route path='/QuickDocs' element={<QuickDocs/>}/>
         <Route path='/Container' element={<Container 
-      character={character} setCharacter={setCharacter}
       input={input} setInput={setInput}
       clothingList={clothingList}
       eyeBrowList={eyeBrowList}
