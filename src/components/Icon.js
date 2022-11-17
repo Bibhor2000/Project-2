@@ -9,7 +9,7 @@ function Icon ({getCharacter, image}) {
         <div>
             <button className='create' onClick={(e) => {e.preventDefault()
             getCharacter()}}>Create Character</button>
-            <SVG src={mySVG} />
+            <SVG src={mySVG} className='Display' />
         </div>
     )
 }
