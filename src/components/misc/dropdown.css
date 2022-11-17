@@ -2,6 +2,7 @@ select {
     border-radius: 15px;
     background-color: cornsilk;
     color: silver;
+    margin-top: 25px;
 }
 
 label {

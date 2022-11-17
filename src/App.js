@@ -32,8 +32,8 @@ function App() {
     <div className='App'>
       <Header/>
       <div>
-        <Link to='/Container'>Create Your Character</Link>
-        <Link to='/QuickDocs'>QuickDocs</Link>
+        <Link to='/Container' className='links'>Create Your Character</Link>
+        <Link to='/QuickDocs' className='links'>QuickDocs</Link>
       </div>
       <Routes>
         <Route path='/QuickDocs' element={<QuickDocs/>}/>
