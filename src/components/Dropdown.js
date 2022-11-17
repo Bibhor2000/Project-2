@@ -1,4 +1,5 @@
 import React, {Component, useState, useEffect} from 'react';
+import clothColorList from '../data/clothcolorlist';
 
 
 function Dropdown ({input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList}) {
@@ -39,6 +40,12 @@ function Dropdown ({input, setInput, clothingList, eyeBrowList, eyeList, hairCol
         )
     })
 
+    let clothColors = clothColorList.map(cc => {
+        return (
+            <option value={cc}>{cc}</option>
+        )
+    })
+
     let mouths = mouthList.map(m => {
         return (
             <option value={m}>{m}</option>
@@ -69,6 +76,8 @@ function Dropdown ({input, setInput, clothingList, eyeBrowList, eyeList, hairCol
             <select name='hairColors' onChange={handleChange}>{hairColors}</select>
             <label for='skinColors'>SkinColors</label>
             <select name='skinColors' onChange={handleChange}>{skinColors}</select>
+            <label for='clothColors'>ClothColors</label>
+            <select name='clothColors' onChange={handleChange}>{clothColors}</select>
             <label for='mouths'>Mouths</label>
             <select name='mouths' onChange={handleChange}>{mouths}</select>
         </div>

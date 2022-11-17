@@ -14,6 +14,7 @@ import hairColorList from './data/haircolorlist';
 import hairList from './data/hairlist';
 import mouthList from './data/mouthlist';
 import skinColorList from './data/skincolorlist';
+import clothColorList from './data/clothcolorlist';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
   const [image, setImage] = useState('')
 
   async function getCharacter () {
-    const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}&hatProbability[]=0`)
+    const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}&clothesColor[]=${input.clothColors}&hatProbability[]=0`)
     setImage(createCharacter)
   }
 
@@ -46,6 +47,7 @@ function App() {
       hairList={hairList}
       mouthList={mouthList}
       skinColorList={skinColorList}
+      clothColorList={clothColorList}
       getCharacter={getCharacter}
       image={image}
       />}/>
