@@ -1,6 +1,6 @@
 import React, {Component, useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import audio from './audios/audio.mp3';
+import audio from './misc/audio.mp3';
 
 function Footer () {
     const bgm = new Audio(audio)
@@ -13,8 +13,8 @@ function Footer () {
 
     return (
         <div>
-            <button onClick={start}>Play</button>
-            <button onClick={stop}>Pause</button>
+            <button onClick={start}>Play Music</button>
+            <button onClick={stop}>Pause Music</button>
         </div>
     )
 }
