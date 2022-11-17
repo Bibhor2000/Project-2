@@ -1,4 +1,5 @@
 import React, {Component, useState, useEffect} from 'react';
+import styles from './misc/dropdown.css'
 
 
 function Dropdown ({input, setInput, clothingList, clothColorList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList}) {

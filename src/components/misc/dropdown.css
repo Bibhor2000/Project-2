@@ -1,0 +1,11 @@
+select {
+    border-radius: 15px;
+    background-color: cornsilk;
+    color: silver;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    font-weight: bold;
+}

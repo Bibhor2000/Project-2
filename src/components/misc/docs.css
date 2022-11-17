@@ -4,4 +4,33 @@
     flex-wrap: wrap;
     width: 200px;
     height: 200px;
+    margin: 10px;
+    margin-left: 90px;
 }
+ .item {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ .list-title {
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ h2 {
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+ h3 {
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+ h4 {
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+ p {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 13px;
+ }
+

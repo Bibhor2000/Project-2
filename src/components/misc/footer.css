@@ -1,0 +1,17 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    border-radius: 15px;
+    background-color:cornsilk;
+    color:silver;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 35px;
+    width: 95px;
+    margin: 15px;
+    font-weight: bold;
+}
