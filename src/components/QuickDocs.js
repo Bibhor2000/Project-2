@@ -74,13 +74,25 @@ function QuickDocs ({character, setCharacter, info, setInfo, input, setInput, cl
                     <li>Variant04 = V-Neck02</li>
                     <li>Variant05 = V-Neck03</li>
                     <li>Variant06 = Two-Tone T-Shirt</li>
-                    <li>Variant07 = Two-Tone Long-Sleeves </li>
+                    <li>Variant07 = Two-Tone</li>
                     <li>Variant08 = Collared Two-Tone T-Shirt</li>
-                    <li>Variant09 = Two-Tone Long-Sleeves02</li>
+                    <li>Variant09 = Two-Tone</li>
                     <li>Variant10 = Tank-Top02</li>
                     <li>Variant11 = Tank-Top03</li>
                     <li>Variant12 = Tank-Top04</li>
-                    <li>Variant13 = Long-Sleeves</li>
+                    <li>Variant13 = T-Shirt</li>
+                    <li>Variant14 = Turtle-Neck</li>
+                    <li>Variant15 = T-Shirt02</li>
+                    <li>Variant16 = Striped T-Shirt02</li>
+                    <li>Variant17 = Checkered T-Shirt </li>
+                    <li>Variant18 = Checkered T-Shirt02</li>
+                    <li>Variant19 = Suspenders</li>
+                    <li>Variant20 = Buttoned-Shirt w/ Tie</li>
+                    <li>Variant21 = Shoulder-Padded Two-Tone</li>
+                    <li>Variant22 = Suspenders02</li>
+                    <li>Variant23 = Buttoned-Shirt w/ Tie02</li>
+                    <li>Variant24 = Buttoned-Shirt w/ Bow-Tie</li>
+                    <li>Variant25 = T-Shirt03</li>
                 </ul>
             </div>
         </div>
