@@ -24,7 +24,7 @@ function App() {
   const [image, setImage] = useState('')
 
   async function getCharacter () {
-    const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}&clothesColor[]=${input.clothColors}&hatProbability[]=0`)
+    const createCharacter = await axios.get(`https://avatars.dicebear.com/api/pixel-art/avatar.svg?eyes[]=${input.eyes}&eyebrows[]=${input.eyebrows}&mouth[]=${input.mouths}&hair[]=${input.hairs}&hairColor[]=${input.hairColors}&skinColor[]=${input.skinColors}&clothing[]=${input.clothes}&clothesColor[]=${input.clothColors}&hatProbability[]=0&glassesProbability[]=0&beardProbability[]=0&accessoriesProbability[]=0`)
     setImage(createCharacter)
   }
 

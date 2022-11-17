@@ -1,8 +1,7 @@
 import React, {Component, useState, useEffect} from 'react';
-import clothColorList from '../data/clothcolorlist';
 
 
-function Dropdown ({input, setInput, clothingList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList}) {
+function Dropdown ({input, setInput, clothingList, clothColorList, eyeBrowList, eyeList, hairColorList, hairList, mouthList, skinColorList}) {
 
     let clothes = clothingList.map(c => {
         return (
@@ -51,7 +50,7 @@ function Dropdown ({input, setInput, clothingList, eyeBrowList, eyeList, hairCol
             <option value={m}>{m}</option>
         )
     })
-    // console.log(mouthList)
+    
 
     function handleChange(e) {
         setInput({
@@ -59,7 +58,6 @@ function Dropdown ({input, setInput, clothingList, eyeBrowList, eyeList, hairCol
             [e.target.name]: e.target.value
         })
     }
-    //console.log(input);
 
 
     return (
