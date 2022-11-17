@@ -26,6 +26,8 @@ function QuickDocs ({character, setCharacter, info, setInfo, input, setInput, cl
                     <li>Variant06 = Narrowed</li>
                     <li>Variant07 = Two-Tone</li>
                     <li>Variant08 = Cross-Eyed</li>
+                    <li>Variant09 = Looking Away Narrowed</li>
+                    <li>Variant10 = Looking Away Worried</li>
                     <li></li>
                 </ul>
                 <ul>
@@ -38,6 +40,8 @@ function QuickDocs ({character, setCharacter, info, setInfo, input, setInput, cl
                     <li>Variant06 = Arched</li>
                     <li>Variant07 = Arched02</li>
                     <li>Variant08 = Normal03</li>
+                    <li>Variant09 = Normal04</li>
+                    <li>Variant10 = None02</li>
                 </ul>
                 <ul>
                     <h4>Hair Colors</h4>
@@ -49,22 +53,26 @@ function QuickDocs ({character, setCharacter, info, setInfo, input, setInput, cl
                     <li>Variant06 = DarkBrown02</li>
                     <li>Variant07 = Maroon</li>
                     <li>Variant08 = Maroon02</li>
+                    <li>Variant09 = DarkBrown03</li>
+                    <li>Variant10 = Black</li>
                 </ul>
                 <ul>
                     <h4>Skin Colors</h4>
                     <li>Variant01 = Starting point for lighter skin tone</li>
-                    <li>Variant04 = Starting point for medium skin tone</li>
+                    <li>Variant05 = Ending point for medium skin tone</li>
                 </ul>
                 <ul>
                     <h4>Clothes</h4>
                     <li>Variant01 = Striped T-Shirt</li>
                     <li>Variant02 = V-Neck T-Shirt</li>
                     <li>Variant03 = Tank Top</li>
-                    <li>Variant04 = V-Neck 02</li>
-                    <li>Variant05 = V-Neck 03</li>
+                    <li>Variant04 = V-Neck02</li>
+                    <li>Variant05 = V-Neck03</li>
                     <li>Variant06 = Two-Tone T-Shirt</li>
                     <li>Variant07 = Two-Tone Long Sleeves </li>
                     <li>Variant08 = Collared Two-Tone T-Shirt</li>
+                    <li>Variant09 = Two-Tone Long Sleeves02</li>
+                    <li>Variant10 = Tank Top02</li>
                 </ul>
             </div>
         </div>
