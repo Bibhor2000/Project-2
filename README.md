@@ -88,3 +88,7 @@ let mouths = mouthList.map(m => {
 **RESOLUTION**: The url is a string literal that takes in inputs containing locally stored data as objects, some of the import statements for those data were imported from the wrong location in app.js
 
 **Note**: A lot of help and guidance was received by Katharyn & Hayk which shaped the direction I took for this project such as using the "handleChange" function to target the values of each input in the dropdown and having it passed onto the string literal
+
+**Some Used References**: 
+-[For anchoring the footer to the bottom](https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/)
+-[For playing Background Audio](https://stackoverflow.com/questions/54114171/how-to-play-an-mp3-once-onclick-in-react)
