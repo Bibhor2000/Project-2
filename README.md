@@ -3,7 +3,7 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This project is about a website where you can make your own pixel avatar by choosing from various option and generating your avatar at the click of a button. 
 
 ## Project Links
 
@@ -53,7 +53,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 30mins | 1hrs | 12hrs |
 | Button | H | 30mins | 30mins | 12.5hrs | 
 | QuickDocs | H | 1hr | 2hrs | 14.5hrs
-| Custom names for inputs (stretch goal) | M | 4hrs | at least 20 hours(DNF) | 
+| Custom names for inputs (stretch goal) | M | 4hrs | at least 10 hours(DNF) | 
+| Dynamic Char preview | M | 6hrs | at least 10 hours(DNF) |
 | Total | H | 30hrs| 34.5hrs | 34.5hrs |
 
 ## Additional Libraries
