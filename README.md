@@ -1,6 +1,3 @@
-# Project Overview
-
-
 ## Project Description
 
 This project is about a website where you can make your own pixel avatar by choosing from various option and generating your avatar at the click of a button. 
