@@ -9,7 +9,7 @@ Use this section to describe your final project and perhaps any links to relevan
 
 - [github repo](https://github.com/Bibhor2000/Project-2)
 - [deployment](https://character-creator-indol.vercel.app/QuickDocs)
-- [demo recording]()
+- [demo recording](https://youtu.be/UXk1FEPxNmw)
 - [api](https://avatars.dicebear.com/styles/pixel-art)
 
 ## Wireframes & React Component Hierarchy
